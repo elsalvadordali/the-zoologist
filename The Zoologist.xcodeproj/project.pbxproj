@@ -9,21 +9,125 @@
 /* Begin PBXBuildFile section */
 		4A75B3D029A6CD80005383AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75B3CF29A6CD80005383AE /* AppDelegate.swift */; };
 		4A75B3D229A6CD80005383AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75B3D129A6CD80005383AE /* SceneDelegate.swift */; };
-		4A75B3D429A6CD80005383AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75B3D329A6CD80005383AE /* ViewController.swift */; };
-		4A75B3D729A6CD80005383AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3D529A6CD80005383AE /* Main.storyboard */; };
+		4A75B3D429A6CD80005383AE /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75B3D329A6CD80005383AE /* FirstScreen.swift */; };
 		4A75B3D929A6CD81005383AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3D829A6CD81005383AE /* Assets.xcassets */; };
 		4A75B3DC29A6CD81005383AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3DA29A6CD81005383AE /* LaunchScreen.storyboard */; };
+		4A75B3E429A6D45A005383AE /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75B3E329A6D45A005383AE /* SecondScreen.swift */; };
+		4A75B3E729A6E1C9005383AE /* pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75B3E629A6E1C9005383AE /* pin.swift */; };
+		4A75B3E929A6E3E1005383AE /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75B3E829A6E3E1005383AE /* AnimalCell.swift */; };
+		4A75B3EB29A6E413005383AE /* ZooTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75B3EA29A6E413005383AE /* ZooTable.swift */; };
+		4A75B3F029A6F239005383AE /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75B3EF29A6F239005383AE /* Animal.swift */; };
+		4A75B41E29A7B1EB005383AE /* Bullfrog.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3F129A7B1EA005383AE /* Bullfrog.png */; };
+		4A75B41F29A7B1EB005383AE /* Jerboa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3F229A7B1EA005383AE /* Jerboa.png */; };
+		4A75B42029A7B1EB005383AE /* Dwarf-Tupaia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3F329A7B1EA005383AE /* Dwarf-Tupaia.png */; };
+		4A75B42129A7B1EB005383AE /* Golden-Mole.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3F429A7B1EA005383AE /* Golden-Mole.png */; };
+		4A75B42229A7B1EB005383AE /* Chacma-Baboon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3F529A7B1EA005383AE /* Chacma-Baboon.png */; };
+		4A75B42329A7B1EB005383AE /* Chauna.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3F629A7B1EA005383AE /* Chauna.png */; };
+		4A75B42429A7B1EB005383AE /* Dolphin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3F729A7B1EA005383AE /* Dolphin.png */; };
+		4A75B42529A7B1EB005383AE /* Ant-Eater.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3F829A7B1EA005383AE /* Ant-Eater.png */; };
+		4A75B42629A7B1EB005383AE /* Dugong.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3F929A7B1EA005383AE /* Dugong.png */; };
+		4A75B42729A7B1EB005383AE /* Echidna.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3FA29A7B1EA005383AE /* Echidna.png */; };
+		4A75B42829A7B1EB005383AE /* Bald-Headed-Saki.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3FB29A7B1EA005383AE /* Bald-Headed-Saki.png */; };
+		4A75B42929A7B1EB005383AE /* Binturong.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3FC29A7B1EA005383AE /* Binturong.png */; };
+		4A75B42A29A7B1EB005383AE /* Armadillo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3FD29A7B1EA005383AE /* Armadillo.png */; };
+		4A75B42B29A7B1EB005383AE /* Arctogale.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3FE29A7B1EA005383AE /* Arctogale.png */; };
+		4A75B42C29A7B1EB005383AE /* Amblystoma.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B3FF29A7B1EA005383AE /* Amblystoma.png */; };
+		4A75B42D29A7B1EB005383AE /* Boa-Constrictor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40029A7B1EA005383AE /* Boa-Constrictor.png */; };
+		4A75B42E29A7B1EB005383AE /* Long-Eared-Bat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40129A7B1EA005383AE /* Long-Eared-Bat.png */; };
+		4A75B42F29A7B1EB005383AE /* Greenland-Whale.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40229A7B1EA005383AE /* Greenland-Whale.png */; };
+		4A75B43029A7B1EB005383AE /* Coati-Mundi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40329A7B1EA005383AE /* Coati-Mundi.png */; };
+		4A75B43129A7B1EB005383AE /* Kalong-Bat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40429A7B1EA005383AE /* Kalong-Bat.png */; };
+		4A75B43229A7B1EB005383AE /* Harnessed-Antelope.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40529A7B1EA005383AE /* Harnessed-Antelope.png */; };
+		4A75B43329A7B1EB005383AE /* Cape-Buffalo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40629A7B1EA005383AE /* Cape-Buffalo.png */; };
+		4A75B43429A7B1EB005383AE /* Badger.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40729A7B1EA005383AE /* Badger.png */; };
+		4A75B43529A7B1EB005383AE /* Aye-Aye.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40829A7B1EA005383AE /* Aye-Aye.png */; };
+		4A75B43629A7B1EB005383AE /* Kinkajou.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40929A7B1EA005383AE /* Kinkajou.png */; };
+		4A75B43729A7B1EB005383AE /* Coecilia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40A29A7B1EA005383AE /* Coecilia.png */; };
+		4A75B43829A7B1EB005383AE /* Foussa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40B29A7B1EA005383AE /* Foussa.png */; };
+		4A75B43929A7B1EB005383AE /* Bison.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40C29A7B1EA005383AE /* Bison.png */; };
+		4A75B43A29A7B1EB005383AE /* Colugo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40D29A7B1EB005383AE /* Colugo.png */; };
+		4A75B43B29A7B1EB005383AE /* Black-Macaque.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40E29A7B1EB005383AE /* Black-Macaque.png */; };
+		4A75B43C29A7B1EB005383AE /* California-Sea-Lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B40F29A7B1EB005383AE /* California-Sea-Lion.png */; };
+		4A75B43D29A7B1EB005383AE /* Amphiuma.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41029A7B1EB005383AE /* Amphiuma.png */; };
+		4A75B43E29A7B1EB005383AE /* Gymnura.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41129A7B1EB005383AE /* Gymnura.png */; };
+		4A75B43F29A7B1EB005383AE /* Chaeropus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41229A7B1EB005383AE /* Chaeropus.png */; };
+		4A75B44029A7B1EB005383AE /* Cobra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41329A7B1EB005383AE /* Cobra.png */; };
+		4A75B44129A7B1EB005383AE /* Axolotl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41429A7B1EB005383AE /* Axolotl.png */; };
+		4A75B44229A7B1EB005383AE /* Condor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41529A7B1EB005383AE /* Condor.png */; };
+		4A75B44329A7B1EB005383AE /* Jumping-Shrew.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41629A7B1EB005383AE /* Jumping-Shrew.png */; };
+		4A75B44429A7B1EB005383AE /* Koala.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41729A7B1EB005383AE /* Koala.png */; };
+		4A75B44529A7B1EB005383AE /* Carolina-Bat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41829A7B1EB005383AE /* Carolina-Bat.png */; };
+		4A75B44629A7B1EB005383AE /* Bird-of-Paradise.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41929A7B1EB005383AE /* Bird-of-Paradise.png */; };
+		4A75B44729A7B1EB005383AE /* Collard-Peccary.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41A29A7B1EB005383AE /* Collard-Peccary.png */; };
+		4A75B44829A7B1EB005383AE /* Greenland-Seal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41B29A7B1EB005383AE /* Greenland-Seal.png */; };
+		4A75B44929A7B1EB005383AE /* Aardvark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41C29A7B1EB005383AE /* Aardvark.png */; };
+		4A75B44A29A7B1EB005383AE /* Chevrotain.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A75B41D29A7B1EB005383AE /* Chevrotain.png */; };
+		4AA1A1FE29AAAEFC00F5C249 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA1A1FD29AAAEFC00F5C249 /* InfoView.swift */; };
+		4AA1A20029ACB1F200F5C249 /* FactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA1A1FF29ACB1F200F5C249 /* FactCell.swift */; };
+		4AA1A20229AD6D9000F5C249 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA1A20129AD6D9000F5C249 /* Info.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A75B3CC29A6CD80005383AE /* The Zoologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Zoologist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A75B3CF29A6CD80005383AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A75B3D129A6CD80005383AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A75B3D329A6CD80005383AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A75B3D629A6CD80005383AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A75B3D329A6CD80005383AE /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		4A75B3D829A6CD81005383AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A75B3DB29A6CD81005383AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A75B3DD29A6CD81005383AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A75B3E329A6D45A005383AE /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		4A75B3E629A6E1C9005383AE /* pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pin.swift; sourceTree = "<group>"; };
+		4A75B3E829A6E3E1005383AE /* AnimalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
+		4A75B3EA29A6E413005383AE /* ZooTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooTable.swift; sourceTree = "<group>"; };
+		4A75B3EF29A6F239005383AE /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		4A75B3F129A7B1EA005383AE /* Bullfrog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bullfrog.png; path = Assets.xcassets/PNG/Bullfrog.png; sourceTree = "<group>"; };
+		4A75B3F229A7B1EA005383AE /* Jerboa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Jerboa.png; path = Assets.xcassets/PNG/Jerboa.png; sourceTree = "<group>"; };
+		4A75B3F329A7B1EA005383AE /* Dwarf-Tupaia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dwarf-Tupaia.png"; path = "Assets.xcassets/PNG/Dwarf-Tupaia.png"; sourceTree = "<group>"; };
+		4A75B3F429A7B1EA005383AE /* Golden-Mole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Golden-Mole.png"; path = "Assets.xcassets/PNG/Golden-Mole.png"; sourceTree = "<group>"; };
+		4A75B3F529A7B1EA005383AE /* Chacma-Baboon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chacma-Baboon.png"; path = "Assets.xcassets/PNG/Chacma-Baboon.png"; sourceTree = "<group>"; };
+		4A75B3F629A7B1EA005383AE /* Chauna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chauna.png; path = Assets.xcassets/PNG/Chauna.png; sourceTree = "<group>"; };
+		4A75B3F729A7B1EA005383AE /* Dolphin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dolphin.png; path = Assets.xcassets/PNG/Dolphin.png; sourceTree = "<group>"; };
+		4A75B3F829A7B1EA005383AE /* Ant-Eater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ant-Eater.png"; path = "Assets.xcassets/PNG/Ant-Eater.png"; sourceTree = "<group>"; };
+		4A75B3F929A7B1EA005383AE /* Dugong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dugong.png; path = Assets.xcassets/PNG/Dugong.png; sourceTree = "<group>"; };
+		4A75B3FA29A7B1EA005383AE /* Echidna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Echidna.png; path = Assets.xcassets/PNG/Echidna.png; sourceTree = "<group>"; };
+		4A75B3FB29A7B1EA005383AE /* Bald-Headed-Saki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bald-Headed-Saki.png"; path = "Assets.xcassets/PNG/Bald-Headed-Saki.png"; sourceTree = "<group>"; };
+		4A75B3FC29A7B1EA005383AE /* Binturong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Binturong.png; path = Assets.xcassets/PNG/Binturong.png; sourceTree = "<group>"; };
+		4A75B3FD29A7B1EA005383AE /* Armadillo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Armadillo.png; path = Assets.xcassets/PNG/Armadillo.png; sourceTree = "<group>"; };
+		4A75B3FE29A7B1EA005383AE /* Arctogale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Arctogale.png; path = Assets.xcassets/PNG/Arctogale.png; sourceTree = "<group>"; };
+		4A75B3FF29A7B1EA005383AE /* Amblystoma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amblystoma.png; path = Assets.xcassets/PNG/Amblystoma.png; sourceTree = "<group>"; };
+		4A75B40029A7B1EA005383AE /* Boa-Constrictor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Boa-Constrictor.png"; path = "Assets.xcassets/PNG/Boa-Constrictor.png"; sourceTree = "<group>"; };
+		4A75B40129A7B1EA005383AE /* Long-Eared-Bat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Long-Eared-Bat.png"; path = "Assets.xcassets/PNG/Long-Eared-Bat.png"; sourceTree = "<group>"; };
+		4A75B40229A7B1EA005383AE /* Greenland-Whale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Greenland-Whale.png"; path = "Assets.xcassets/PNG/Greenland-Whale.png"; sourceTree = "<group>"; };
+		4A75B40329A7B1EA005383AE /* Coati-Mundi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coati-Mundi.png"; path = "Assets.xcassets/PNG/Coati-Mundi.png"; sourceTree = "<group>"; };
+		4A75B40429A7B1EA005383AE /* Kalong-Bat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kalong-Bat.png"; path = "Assets.xcassets/PNG/Kalong-Bat.png"; sourceTree = "<group>"; };
+		4A75B40529A7B1EA005383AE /* Harnessed-Antelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Harnessed-Antelope.png"; path = "Assets.xcassets/PNG/Harnessed-Antelope.png"; sourceTree = "<group>"; };
+		4A75B40629A7B1EA005383AE /* Cape-Buffalo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cape-Buffalo.png"; path = "Assets.xcassets/PNG/Cape-Buffalo.png"; sourceTree = "<group>"; };
+		4A75B40729A7B1EA005383AE /* Badger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Badger.png; path = Assets.xcassets/PNG/Badger.png; sourceTree = "<group>"; };
+		4A75B40829A7B1EA005383AE /* Aye-Aye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aye-Aye.png"; path = "Assets.xcassets/PNG/Aye-Aye.png"; sourceTree = "<group>"; };
+		4A75B40929A7B1EA005383AE /* Kinkajou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kinkajou.png; path = Assets.xcassets/PNG/Kinkajou.png; sourceTree = "<group>"; };
+		4A75B40A29A7B1EA005383AE /* Coecilia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coecilia.png; path = Assets.xcassets/PNG/Coecilia.png; sourceTree = "<group>"; };
+		4A75B40B29A7B1EA005383AE /* Foussa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Foussa.png; path = Assets.xcassets/PNG/Foussa.png; sourceTree = "<group>"; };
+		4A75B40C29A7B1EA005383AE /* Bison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bison.png; path = Assets.xcassets/PNG/Bison.png; sourceTree = "<group>"; };
+		4A75B40D29A7B1EB005383AE /* Colugo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Colugo.png; path = Assets.xcassets/PNG/Colugo.png; sourceTree = "<group>"; };
+		4A75B40E29A7B1EB005383AE /* Black-Macaque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Black-Macaque.png"; path = "Assets.xcassets/PNG/Black-Macaque.png"; sourceTree = "<group>"; };
+		4A75B40F29A7B1EB005383AE /* California-Sea-Lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "California-Sea-Lion.png"; path = "Assets.xcassets/PNG/California-Sea-Lion.png"; sourceTree = "<group>"; };
+		4A75B41029A7B1EB005383AE /* Amphiuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amphiuma.png; path = Assets.xcassets/PNG/Amphiuma.png; sourceTree = "<group>"; };
+		4A75B41129A7B1EB005383AE /* Gymnura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gymnura.png; path = Assets.xcassets/PNG/Gymnura.png; sourceTree = "<group>"; };
+		4A75B41229A7B1EB005383AE /* Chaeropus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chaeropus.png; path = Assets.xcassets/PNG/Chaeropus.png; sourceTree = "<group>"; };
+		4A75B41329A7B1EB005383AE /* Cobra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cobra.png; path = Assets.xcassets/PNG/Cobra.png; sourceTree = "<group>"; };
+		4A75B41429A7B1EB005383AE /* Axolotl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Axolotl.png; path = Assets.xcassets/PNG/Axolotl.png; sourceTree = "<group>"; };
+		4A75B41529A7B1EB005383AE /* Condor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Condor.png; path = Assets.xcassets/PNG/Condor.png; sourceTree = "<group>"; };
+		4A75B41629A7B1EB005383AE /* Jumping-Shrew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Jumping-Shrew.png"; path = "Assets.xcassets/PNG/Jumping-Shrew.png"; sourceTree = "<group>"; };
+		4A75B41729A7B1EB005383AE /* Koala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Koala.png; path = Assets.xcassets/PNG/Koala.png; sourceTree = "<group>"; };
+		4A75B41829A7B1EB005383AE /* Carolina-Bat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Carolina-Bat.png"; path = "Assets.xcassets/PNG/Carolina-Bat.png"; sourceTree = "<group>"; };
+		4A75B41929A7B1EB005383AE /* Bird-of-Paradise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bird-of-Paradise.png"; path = "Assets.xcassets/PNG/Bird-of-Paradise.png"; sourceTree = "<group>"; };
+		4A75B41A29A7B1EB005383AE /* Collard-Peccary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Collard-Peccary.png"; path = "Assets.xcassets/PNG/Collard-Peccary.png"; sourceTree = "<group>"; };
+		4A75B41B29A7B1EB005383AE /* Greenland-Seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Greenland-Seal.png"; path = "Assets.xcassets/PNG/Greenland-Seal.png"; sourceTree = "<group>"; };
+		4A75B41C29A7B1EB005383AE /* Aardvark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Aardvark.png; path = Assets.xcassets/PNG/Aardvark.png; sourceTree = "<group>"; };
+		4A75B41D29A7B1EB005383AE /* Chevrotain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chevrotain.png; path = Assets.xcassets/PNG/Chevrotain.png; sourceTree = "<group>"; };
+		4AA1A1FD29AAAEFC00F5C249 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		4AA1A1FF29ACB1F200F5C249 /* FactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactCell.swift; sourceTree = "<group>"; };
+		4AA1A20129AD6D9000F5C249 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +160,65 @@
 		4A75B3CE29A6CD80005383AE /* The Zoologist */ = {
 			isa = PBXGroup;
 			children = (
+				4A75B3EF29A6F239005383AE /* Animal.swift */,
+				4A75B3E829A6E3E1005383AE /* AnimalCell.swift */,
 				4A75B3CF29A6CD80005383AE /* AppDelegate.swift */,
 				4A75B3D129A6CD80005383AE /* SceneDelegate.swift */,
-				4A75B3D329A6CD80005383AE /* ViewController.swift */,
-				4A75B3D529A6CD80005383AE /* Main.storyboard */,
+				4A75B3D329A6CD80005383AE /* FirstScreen.swift */,
+				4A75B3E329A6D45A005383AE /* SecondScreen.swift */,
+				4AA1A20129AD6D9000F5C249 /* Info.swift */,
 				4A75B3D829A6CD81005383AE /* Assets.xcassets */,
 				4A75B3DA29A6CD81005383AE /* LaunchScreen.storyboard */,
+				4A75B41C29A7B1EB005383AE /* Aardvark.png */,
+				4A75B3FF29A7B1EA005383AE /* Amblystoma.png */,
+				4A75B41029A7B1EB005383AE /* Amphiuma.png */,
+				4A75B3F829A7B1EA005383AE /* Ant-Eater.png */,
+				4A75B3FE29A7B1EA005383AE /* Arctogale.png */,
+				4A75B3FD29A7B1EA005383AE /* Armadillo.png */,
+				4A75B41429A7B1EB005383AE /* Axolotl.png */,
+				4A75B40829A7B1EA005383AE /* Aye-Aye.png */,
+				4A75B40729A7B1EA005383AE /* Badger.png */,
+				4A75B3FB29A7B1EA005383AE /* Bald-Headed-Saki.png */,
+				4A75B3FC29A7B1EA005383AE /* Binturong.png */,
+				4A75B41929A7B1EB005383AE /* Bird-of-Paradise.png */,
+				4A75B40C29A7B1EA005383AE /* Bison.png */,
+				4A75B40E29A7B1EB005383AE /* Black-Macaque.png */,
+				4A75B40029A7B1EA005383AE /* Boa-Constrictor.png */,
+				4A75B3F129A7B1EA005383AE /* Bullfrog.png */,
+				4A75B40F29A7B1EB005383AE /* California-Sea-Lion.png */,
+				4A75B40629A7B1EA005383AE /* Cape-Buffalo.png */,
+				4A75B41829A7B1EB005383AE /* Carolina-Bat.png */,
+				4A75B3F529A7B1EA005383AE /* Chacma-Baboon.png */,
+				4A75B41229A7B1EB005383AE /* Chaeropus.png */,
+				4A75B3F629A7B1EA005383AE /* Chauna.png */,
+				4A75B41D29A7B1EB005383AE /* Chevrotain.png */,
+				4A75B40329A7B1EA005383AE /* Coati-Mundi.png */,
+				4A75B41329A7B1EB005383AE /* Cobra.png */,
+				4A75B40A29A7B1EA005383AE /* Coecilia.png */,
+				4A75B41A29A7B1EB005383AE /* Collard-Peccary.png */,
+				4A75B40D29A7B1EB005383AE /* Colugo.png */,
+				4A75B41529A7B1EB005383AE /* Condor.png */,
+				4A75B3F729A7B1EA005383AE /* Dolphin.png */,
+				4A75B3F929A7B1EA005383AE /* Dugong.png */,
+				4A75B3F329A7B1EA005383AE /* Dwarf-Tupaia.png */,
+				4A75B3FA29A7B1EA005383AE /* Echidna.png */,
+				4A75B40B29A7B1EA005383AE /* Foussa.png */,
+				4A75B3F429A7B1EA005383AE /* Golden-Mole.png */,
+				4A75B41B29A7B1EB005383AE /* Greenland-Seal.png */,
+				4A75B40229A7B1EA005383AE /* Greenland-Whale.png */,
+				4A75B41129A7B1EB005383AE /* Gymnura.png */,
+				4A75B40529A7B1EA005383AE /* Harnessed-Antelope.png */,
+				4A75B3F229A7B1EA005383AE /* Jerboa.png */,
+				4A75B41629A7B1EB005383AE /* Jumping-Shrew.png */,
+				4A75B40429A7B1EA005383AE /* Kalong-Bat.png */,
+				4A75B40929A7B1EA005383AE /* Kinkajou.png */,
+				4A75B41729A7B1EB005383AE /* Koala.png */,
+				4A75B40129A7B1EA005383AE /* Long-Eared-Bat.png */,
 				4A75B3DD29A6CD81005383AE /* Info.plist */,
+				4A75B3E629A6E1C9005383AE /* pin.swift */,
+				4A75B3EA29A6E413005383AE /* ZooTable.swift */,
+				4AA1A1FD29AAAEFC00F5C249 /* InfoView.swift */,
+				4AA1A1FF29ACB1F200F5C249 /* FactCell.swift */,
 			);
 			path = "The Zoologist";
 			sourceTree = "<group>";
@@ -125,9 +281,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A75B44029A7B1EB005383AE /* Cobra.png in Resources */,
+				4A75B41F29A7B1EB005383AE /* Jerboa.png in Resources */,
+				4A75B43929A7B1EB005383AE /* Bison.png in Resources */,
+				4A75B43529A7B1EB005383AE /* Aye-Aye.png in Resources */,
+				4A75B43C29A7B1EB005383AE /* California-Sea-Lion.png in Resources */,
+				4A75B42A29A7B1EB005383AE /* Armadillo.png in Resources */,
+				4A75B42B29A7B1EB005383AE /* Arctogale.png in Resources */,
+				4A75B44829A7B1EB005383AE /* Greenland-Seal.png in Resources */,
+				4A75B43129A7B1EB005383AE /* Kalong-Bat.png in Resources */,
+				4A75B43029A7B1EB005383AE /* Coati-Mundi.png in Resources */,
+				4A75B43A29A7B1EB005383AE /* Colugo.png in Resources */,
+				4A75B44929A7B1EB005383AE /* Aardvark.png in Resources */,
+				4A75B42029A7B1EB005383AE /* Dwarf-Tupaia.png in Resources */,
+				4A75B44129A7B1EB005383AE /* Axolotl.png in Resources */,
 				4A75B3DC29A6CD81005383AE /* LaunchScreen.storyboard in Resources */,
+				4A75B44429A7B1EB005383AE /* Koala.png in Resources */,
+				4A75B43729A7B1EB005383AE /* Coecilia.png in Resources */,
+				4A75B43B29A7B1EB005383AE /* Black-Macaque.png in Resources */,
+				4A75B43829A7B1EB005383AE /* Foussa.png in Resources */,
+				4A75B43F29A7B1EB005383AE /* Chaeropus.png in Resources */,
+				4A75B42629A7B1EB005383AE /* Dugong.png in Resources */,
+				4A75B43329A7B1EB005383AE /* Cape-Buffalo.png in Resources */,
+				4A75B42829A7B1EB005383AE /* Bald-Headed-Saki.png in Resources */,
+				4A75B42529A7B1EB005383AE /* Ant-Eater.png in Resources */,
+				4A75B42E29A7B1EB005383AE /* Long-Eared-Bat.png in Resources */,
+				4A75B43E29A7B1EB005383AE /* Gymnura.png in Resources */,
+				4A75B43D29A7B1EB005383AE /* Amphiuma.png in Resources */,
+				4A75B42429A7B1EB005383AE /* Dolphin.png in Resources */,
+				4A75B42D29A7B1EB005383AE /* Boa-Constrictor.png in Resources */,
+				4A75B44629A7B1EB005383AE /* Bird-of-Paradise.png in Resources */,
+				4A75B42729A7B1EB005383AE /* Echidna.png in Resources */,
+				4A75B42C29A7B1EB005383AE /* Amblystoma.png in Resources */,
+				4A75B44329A7B1EB005383AE /* Jumping-Shrew.png in Resources */,
+				4A75B44529A7B1EB005383AE /* Carolina-Bat.png in Resources */,
+				4A75B44229A7B1EB005383AE /* Condor.png in Resources */,
+				4A75B42129A7B1EB005383AE /* Golden-Mole.png in Resources */,
 				4A75B3D929A6CD81005383AE /* Assets.xcassets in Resources */,
-				4A75B3D729A6CD80005383AE /* Main.storyboard in Resources */,
+				4A75B44729A7B1EB005383AE /* Collard-Peccary.png in Resources */,
+				4A75B42929A7B1EB005383AE /* Binturong.png in Resources */,
+				4A75B44A29A7B1EB005383AE /* Chevrotain.png in Resources */,
+				4A75B42F29A7B1EB005383AE /* Greenland-Whale.png in Resources */,
+				4A75B43229A7B1EB005383AE /* Harnessed-Antelope.png in Resources */,
+				4A75B43629A7B1EB005383AE /* Kinkajou.png in Resources */,
+				4A75B42329A7B1EB005383AE /* Chauna.png in Resources */,
+				4A75B42229A7B1EB005383AE /* Chacma-Baboon.png in Resources */,
+				4A75B43429A7B1EB005383AE /* Badger.png in Resources */,
+				4A75B41E29A7B1EB005383AE /* Bullfrog.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +338,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A75B3D429A6CD80005383AE /* ViewController.swift in Sources */,
+				4A75B3D429A6CD80005383AE /* FirstScreen.swift in Sources */,
+				4A75B3F029A6F239005383AE /* Animal.swift in Sources */,
+				4A75B3E929A6E3E1005383AE /* AnimalCell.swift in Sources */,
+				4AA1A20029ACB1F200F5C249 /* FactCell.swift in Sources */,
+				4A75B3E429A6D45A005383AE /* SecondScreen.swift in Sources */,
 				4A75B3D029A6CD80005383AE /* AppDelegate.swift in Sources */,
+				4A75B3E729A6E1C9005383AE /* pin.swift in Sources */,
 				4A75B3D229A6CD80005383AE /* SceneDelegate.swift in Sources */,
+				4AA1A1FE29AAAEFC00F5C249 /* InfoView.swift in Sources */,
+				4A75B3EB29A6E413005383AE /* ZooTable.swift in Sources */,
+				4AA1A20229AD6D9000F5C249 /* Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A75B3D529A6CD80005383AE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A75B3D629A6CD80005383AE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A75B3DA29A6CD81005383AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +491,6 @@
 				INFOPLIST_FILE = "The Zoologist/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +517,6 @@
 				INFOPLIST_FILE = "The Zoologist/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
